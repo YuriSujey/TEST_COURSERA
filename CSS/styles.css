@@ -1,6 +1,12 @@
-.parrafo1{
+.parrafo1 {
     background-color: aqua;
     margin-left: 5px;
     width: 400px;
     text-align: justify;
 }
+@media (max-width: 767px) { #collapsable-nav 
+    { border-top: 1px solid #ddd; }
+     #nav-list { margin-bottom: 0; } 
+     #nav-list li { border-bottom: 1px solid #ddd; } 
+     #nav-list a { padding: 15px; font-size: 18px; }
+     }
